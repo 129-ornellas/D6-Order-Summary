@@ -1,4 +1,7 @@
 body {
+  font-family: font-family "Red Hat Display", sans-serif;
+  /* background-image: url(/IMG/pattern-background-desktop.svg); */
+  background-color: aqua;
 }
 
 .conteiner {
@@ -6,14 +9,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: aqua;
 }
 
 .order_summary {
   display: flex;
+  flex-direction: column;
   width: 450px;
   height: 650px;
-  background-color: #fff;
+  background-color: rgb(255, 123, 0);
   border-radius: 25px;
   text-align: center;
 }
