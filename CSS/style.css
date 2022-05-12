@@ -1,0 +1,26 @@
+body {
+}
+
+.conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: aqua;
+}
+
+.order_summary {
+  display: flex;
+  width: 450px;
+  height: 650px;
+  background-color: #fff;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.img_hero {
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 40%;
+}
